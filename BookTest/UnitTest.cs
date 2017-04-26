@@ -86,6 +86,32 @@ namespace BookTest
         }
 
         [TestMethod]
+        [ExpectedException(typeof(Exception), "Could not set new status to current Book. Status check Faild")]
+        public void LibraryGiveBookBookSatausError()
+        {
+            ELibrary.Users.User.Authenticate(3);
+
+            ELibrary.Library.BookLibraryWork lib = new ELibrary.Library.BookLibraryWork(new ELibrary.Defaults.BookReposytory());
+
+            var result = lib.SearchForBook(new ELibrary.Defaults.BookSearchFilter() { Authors = new string[1] { "lovecraft" }, BookSatus = ELibrary.Books.BookSatus.InLibrary, BookNameOrPartOfName = "Cthulhu" });
+            Assert.AreEqual(1, result.Count());
+
+            var book = result.First();
+
+            var status = lib.CheckBookStatus(book);
+            Assert.AreEqual(true, status == ELibrary.Books.BookSatus.InLibrary);
+
+            lib.GiveBook(book);
+
+            status = lib.CheckBookStatus(book);
+            Assert.AreEqual(true, status == ELibrary.Books.BookSatus.AtUser);
+
+            ELibrary.Users.User.Authenticate(7);
+            lib.GiveBook(book);
+        }
+
+
+        [TestMethod]
         public void LibraryTakeGiveArchiveBook()
         {
             ELibrary.Users.User.Authenticate(3);

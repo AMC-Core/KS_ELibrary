@@ -83,13 +83,22 @@ namespace ELibrary.Defaults
 
         public IEnumerable<IBook> Collection { get { return this._collection; } }
 
-        public void UpdateBookStatus(IBook Book, BookSatus NewStatus)
+        public void UpdateBookStatus(IBook Book, BookSatus NewStatus, BookSatus CheckStatus)
         {
             lock(this._collection)
             {
-                _collection[_collection.IndexOf(Book)].BookSatus = NewStatus;
-                //emulating DB read/write working
-                System.Threading.Thread.Sleep(3500);
+                int index = _collection.IndexOf(Book);
+                if(_collection[index].BookSatus == CheckStatus)
+                {
+                    _collection[index].BookSatus = NewStatus;
+
+                    //emulating DB read/write working
+                    System.Threading.Thread.Sleep(3500);
+                }
+                else
+                {
+                    throw new Exception(string.Format("Could not set new status to current Book. Status check Faild"));
+                }
             }
         }
     }
