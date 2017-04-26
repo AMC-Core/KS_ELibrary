@@ -101,7 +101,7 @@ namespace ELibrary.Library
                 if (status != BookSatus.AtUser)
                     throw new Exception("Could not take Book that is not at User");
 
-                _repository.UpdateBookStatus(Book, BookSatus.AtUser);
+                _repository.UpdateBookStatus(Book, BookSatus.InLibrary);
                 return;
             }
             throw new Exception("Only Users with status Trainee Librarian (or higher) can Take Book");
@@ -115,7 +115,7 @@ namespace ELibrary.Library
                 if (status != BookSatus.InLibrary)
                     throw new Exception("Could not archive Book that is not in library");
 
-                _repository.UpdateBookStatus(Book, BookSatus.AtUser);
+                _repository.UpdateBookStatus(Book, BookSatus.Archived);
                 return;
             }
             throw new Exception("Only Users with status Senior Librarian can Archive Book");

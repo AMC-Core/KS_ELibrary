@@ -7,3 +7,12 @@ c:\temp\Books\BookTest\obj\Debug\BookTest.dll
 c:\temp\Books\BookTest\obj\Debug\BookTest.pdb
 c:\temp\Books\BookTest\bin\Debug\ELibrary.dll
 c:\temp\Books\BookTest\bin\Debug\ELibrary.pdb
+C:\temp\Books\KS_ELibrary\BookTest\bin\Debug\BookTest.dll
+C:\temp\Books\KS_ELibrary\BookTest\bin\Debug\BookTest.pdb
+C:\temp\Books\KS_ELibrary\BookTest\bin\Debug\ELibrary.dll
+C:\temp\Books\KS_ELibrary\BookTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\temp\Books\KS_ELibrary\BookTest\bin\Debug\ELibrary.pdb
+C:\temp\Books\KS_ELibrary\BookTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\temp\Books\KS_ELibrary\BookTest\obj\Debug\ELibraryTest.csprojResolveAssemblyReference.cache
+C:\temp\Books\KS_ELibrary\BookTest\obj\Debug\BookTest.dll
+C:\temp\Books\KS_ELibrary\BookTest\obj\Debug\BookTest.pdb

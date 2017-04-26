@@ -3,3 +3,8 @@ c:\temp\Books\Books\bin\Debug\ELibrary.pdb
 c:\temp\Books\Books\obj\Debug\ELibrary.csprojResolveAssemblyReference.cache
 c:\temp\Books\Books\obj\Debug\ELibrary.dll
 c:\temp\Books\Books\obj\Debug\ELibrary.pdb
+C:\temp\Books\KS_ELibrary\Books\bin\Debug\ELibrary.dll
+C:\temp\Books\KS_ELibrary\Books\bin\Debug\ELibrary.pdb
+C:\temp\Books\KS_ELibrary\Books\obj\Debug\ELibrary.csprojResolveAssemblyReference.cache
+C:\temp\Books\KS_ELibrary\Books\obj\Debug\ELibrary.dll
+C:\temp\Books\KS_ELibrary\Books\obj\Debug\ELibrary.pdb
