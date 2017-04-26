@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibrary", "Books\ELibrary.csproj", "{0D554834-B756-4218-B73E-1EEA4CE83E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibraryTest", "BookTest\ELibraryTest.csproj", "{B96040C9-282A-487D-8941-83C053BEBA8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D554834-B756-4218-B73E-1EEA4CE83E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D554834-B756-4218-B73E-1EEA4CE83E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D554834-B756-4218-B73E-1EEA4CE83E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D554834-B756-4218-B73E-1EEA4CE83E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96040C9-282A-487D-8941-83C053BEBA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96040C9-282A-487D-8941-83C053BEBA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96040C9-282A-487D-8941-83C053BEBA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96040C9-282A-487D-8941-83C053BEBA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+c:\temp\Books\BookTest\bin\Debug\BookTest.dll
+c:\temp\Books\BookTest\bin\Debug\BookTest.pdb
+c:\temp\Books\BookTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\temp\Books\BookTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\temp\Books\BookTest\obj\Debug\ELibraryTest.csprojResolveAssemblyReference.cache
+c:\temp\Books\BookTest\obj\Debug\BookTest.dll
+c:\temp\Books\BookTest\obj\Debug\BookTest.pdb
+c:\temp\Books\BookTest\bin\Debug\ELibrary.dll
+c:\temp\Books\BookTest\bin\Debug\ELibrary.pdb
